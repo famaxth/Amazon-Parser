@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.headless = True
 
-path = 'path/to/chromedriver.exe' #you need to change this
+path = 'path/to/chromedriver.exe' # You need to change this
 
 
 def parser():
