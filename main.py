@@ -16,8 +16,7 @@ path = 'path/to/chromedriver.exe' # You need to change this
 def parser():
     text = input("Hi! I will help you find information about the item on the Amazon website. Enter the text: \n\n")
     if type(text) == str:
-        print("ᅠ")
-        print("I have received your request. I'm starting to search...")
+        print("\nI have received your request. I'm starting to search...")
         try:
             driver = webdriver.Chrome(path, chrome_options=options)
             driver.get('https://www.amazon.co.uk/')
